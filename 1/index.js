@@ -1,4 +1,3 @@
-let Links = document.querySelectorAll('a');
 let Icon = document.querySelector('.icon');
 
 Icon.addEventListener('click',()=>{

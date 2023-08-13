@@ -16,7 +16,9 @@ MyInput.addEventListener('keyup', (event) => {
         let MyLi = document.createElement('li')
         MyLi.textContent = MyInput.value
         MyUL.appendChild(MyLi)
+        MyInput.value = " "
     }
+    
 })
 
 

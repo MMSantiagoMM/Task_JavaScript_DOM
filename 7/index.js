@@ -12,7 +12,7 @@ let regExpLength = /^(?=.{8,}).*$/
 
 PSW.addEventListener('focus',()=>{
     Message.style.display='block'
-    PSW.addEventListener('keydown',()=>{
+    PSW.addEventListener('keyup',()=>{
         if(regExpLetter.test(PSW.value)){
             Letter.classList.remove('invalid')
             Letter.classList.add('valid')

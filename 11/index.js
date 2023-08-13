@@ -13,9 +13,6 @@ function loaderFunction (){
         Disapear.forEach((element)=>{
             element.classList.remove('disapear')
         })
-
-
-        console.log("hi")
     },3000)
 
 }

@@ -1,6 +1,5 @@
 let Button = document.querySelector('.openbtn');
 let SideBar = document.getElementById('mySidebar')
-let Links = document.getElementsByTagName('a');
 let Main = document.getElementById('main')
 let ButtonClose = document.querySelector('.closebtn')
 
